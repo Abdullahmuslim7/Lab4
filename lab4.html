@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 4 - HTML Lists , Forms, Tables</title>
+  <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+     
+    <h2>Task 1 : html Lists</h2>
+    <ul>
+        <li>Fruit
+        <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+        </ul>
+        </li>
+      <il>Vegetebles
+        <ul>
+            <li>Broccoli</li>
+            <li>Peas</li>
+        </ul>
+      </il>
+    </ul>
+
+     <h2> Tesk 2: Pizza Shop Form </h2>
+     <form> 
+        <label> Name: <input type = "text" name="name"></label><br><br>
+        <p>Pizza Topping :</p>
+        <label><input type="radio" name="topping" value="supreme"> Suoreme"</label><br>
+        <label><input type="radio" name="topping" value="Vegetebles">Vegetebles</label><br> 
+        <label><input type="radio" name="topping" value="hawaiian"> Hawaiian</label><br><br>
+
+         <label>Pizza Sauce: 
+            <select name="Sauce">
+                <option value="tomato"> Tomato</option>
+            </select>
+         </label><br><br>
+
+         <p>Optional Extras: </p>
+         <label><input type="chackbox" name="extras" value="cheese">Extra Cheese </label><br>
+         <label><input type="chackbox" name="extras" value="gluten"> Gluten Free Base</label><br><br>
+
+         <label>Delivery Instructions:<br> 
+         <textarea name="instructions" rows="3" cols="25"></textarea>
+        </label><br>
+        <button> type="submit" Send my Order </button>
+     </form>
+     <h2> Task 3 HTML  Table </h2>
+     <table>
+        <tr> 
+            <th>Day</th>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>rowspan="2"monday</td>
+            <td> 9 Am </td>
+            <td>Meeting</td>
+        </tr>
+        <tr>
+            <td>11 Am </td>
+            <td>Lunch</td>
+        </tr>
+        <tr>
+            <td colspan="3">End of Day Summary</td>
+        </tr>
+     </table>
+</body>
+</html>
